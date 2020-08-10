@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using SignalRChat.Hubs;
+using BroadcastingSignalR.Web.Hubs;
 
-namespace WebApplication.Controllers
+namespace BroadcastingSignalR.Web.Controllers
 {
     [ApiController]
     [Route("api/broadcast")]
